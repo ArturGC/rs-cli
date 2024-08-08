@@ -1,0 +1,18 @@
+[package]
+authors = ["ArturGC"]
+edition = "2021"
+license = "MIT"
+name = "rs-cli"
+version = "0.1.0"
+
+
+[lib]
+name = "rs_cli_core"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rs_cli"
+path = "src/main.rs"
+
+
+[dependencies]
